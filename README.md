@@ -10,7 +10,9 @@ Desarrollado en Reactjs, desarrollado más específicamente en el ambiente creat
 
 ### `visualizar el proyecto https://linkdeseda.github.io/`
 
-### `Cd ecomsur`
+### `Una vez clonado el proyecto realizamos los siguientes pasos:`
+
+### `cd ecomsur`
 
 ### `npm install`
 
