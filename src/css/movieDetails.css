@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+.movieDetails{
+    display: grid;
+    grid-template-columns: 40%  60%;
+    text-align: left;
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .selectedMovieImage{
+    text-align: center;
+  }
+
+  .SelectedMovie img{
+    width: 85%;
+    height: 350px;
+}
+
+.SelectedMovieTitulo{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.SelectedMovieFecha{
+  font-size: 15px;
+}
+
+.SelectedMovieVoto{
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.SelectedMovieGeneroTitulo{
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.SelectedMovieGeneros{
+  display: grid;
+  color: #e70707;
+  font-weight: bold;
+  font-size: 15px;
+  grid-template-columns: repeat(4,25%);
+}
+
+.SelectedMovieOverviewtitle{
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.SelectedMovieOverview{
+  font-size: 12px;
+}
+
+
+@media only screen and (max-width: 700px) {
+
+  .movieDetails{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .SelectedMovie img{
+    width: 150px !important;
+    height: 150px !important;
+}
+
+  .SelectedMovie img{
+    margin-top: 15px;
+    width: 95%;
+    height: 175px;
+  }
+
+  .SelectedMovieTitulo{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .SelectedMovieFecha{
+    font-size: 10px;
+  }
+
+  .SelectedMovieVoto{
+    margin-top: 10px;
+    font-size: 10px;
+  }
+  
+  .SelectedMovieGeneroTitulo{
+    margin-top: 8px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .SelectedMovieGeneros{
+    display: grid;
+    color: #e70707;
+    font-weight: bold;
+    font-size: 10px;
+    grid-template-columns: repeat(3,33%);
+  }
+  
+  .SelectedMovieOverviewtitle{
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  .SelectedMovieOverview{
+    font-size: 9px;
+  }
+}
+
+@media only screen and (max-width: 1150px) and (min-width: 701px)  {
+
+  .SelectedMovie img{
+    width: 100% !important;
+    height: 240px !important;
+  }
+
+
+  .SelectedMovieTitulo{
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .SelectedMovieFecha{
+    font-size: 14px;
+  }
+
+  .SelectedMovieVoto{
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .SelectedMovieGeneroTitulo{
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .SelectedMovieGeneros{
+    display: grid;
+    color: #e70707;
+    font-weight: bold;
+    font-size: 14px;
+    grid-template-columns: repeat(2,50%);
+  }
+  
+  .SelectedMovieOverviewtitle{
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .SelectedMovieOverview{
+    font-size: 11px;
+  }
+
+
+}
+
+

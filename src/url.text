@@ -1,0 +1,30 @@
+https://api.themoviedb.org/3/api_key=e1d1c30211c795931880461ad29e4d79
+
+
+
+--- Busqueda popular ---
+
+https://api.themoviedb.org/3/movie/popular?api_key=e1d1c30211c795931880461ad29e4d79&language=en-US&page=1
+
+--- Busqueda ---
+https://api.themoviedb.org/3/search/movie?api_key=e1d1c30211c795931880461ad29e4d79&query=star+wars
+
+--- Busqueda por pagina ---
+
+https://api.themoviedb.org/3/search/movie?api_key=e1d1c30211c795931880461ad29e4d79&query=star+wars&page=2
+ https://api.themoviedb.org/3/search/movie?api_key=e1d1c30211c795931880461ad29e4d79&query=star+wars&2
+ID Example: 283566
+--- Details ---
+
+https://api.themoviedb.org/3/movie/497698?api_key=e1d1c30211c795931880461ad29e4d79&language=en-US
+
+--- Video ---
+https://api.themoviedb.org/3/movie/497698/videos?api_key=e1d1c30211c795931880461ad29e4d79&language=en-US
+
+--- Similar ---
+
+https://api.themoviedb.org/3/movie/283566/similar?api_key=e1d1c30211c795931880461ad29e4d79&language=en-US&page=1
+
+
+/dq18nCTTLpy9PmtzZI6Y2yAgdw5.jpg
+

@@ -1,0 +1,115 @@
+.container {
+display: grid;
+grid-template-columns: 50% 50%;
+grid-gap: 5px;
+}
+
+.container div {
+    background-color: white;
+}
+
+.MovieList {
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+}
+
+.MovieImage{
+    width: 95%;
+    height: 185px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+.MovieImage:hover{
+    opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: url(https://i.ibb.co/F53TnDS/1200px-Magnifying-glass-icon-svg.png)no-repeat 100%;
+  background-size: 30px;
+  padding-right:20px;
+
+  }
+
+#pagination {
+  margin: 5;
+  padding: 0;
+  text-align: center
+}
+#pagination li {
+  display: inline
+}
+#pagination li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #000
+}
+
+/* Active and Hoverable Pagination */
+#pagination li a {
+  border-radius: 5px;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s
+    
+}
+#pagination li a.active {
+  cursor: pointer;
+  background-color: #0b6fe2;
+  color: #fff
+}
+#pagination li a:hover:not(.active) {
+  cursor: pointer;
+  background-color: #ddd;
+} 
+
+
+@media only screen and (max-width: 700px) {
+
+  .MovieList {
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+
+  .MovieImage{
+    width: 95%;
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 1150px) and (min-width: 701px)  {
+      .MovieList {
+        display: grid;
+        grid-template-columns: repeat(3,33%);
+    }
+  }
