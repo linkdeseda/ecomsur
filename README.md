@@ -8,7 +8,7 @@ Desarrollado en Reactjs, desarrollado más específicamente en el ambiente creat
 
 ### `Desplegar el proyecto en github:`
 
-### `git clone https://github.com/urlproyecto.`
+### `visualizar el proyecto https://linkdeseda.github.io/`
 
 ### `Cd ecomsur`
 
