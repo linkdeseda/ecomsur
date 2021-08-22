@@ -23,7 +23,9 @@ function App() {
   //se ejecuta cuando 1 vez al inicio y luego al hacer algun cambio en las variables:
   //page,typeMovies,filterMovies
   const moviePopular = useCallback(async () => {
-    //Aqui va el try catch.
+
+    try {
+
     if(typeMovies){
       axios({
         url: 'https://api.themoviedb.org/3/movie/'+typeMovies+'?api_key='+apiKey+'&language=en-US&page='+page,
@@ -40,10 +42,18 @@ function App() {
         setMovies(response.data)
       })
     }
+
+    } catch (error) {
+      console.log(error);
+  }
     }, [page,typeMovies,filterMovies]) 
 
     
   const findSelectedMovies = useCallback(async () => {
+
+    try {
+      
+ 
     if(movieFind){
       axios({
         url: 'https://api.themoviedb.org/3/movie/'+movieFind+'?api_key='+apiKey+'&language=en-US',
@@ -69,6 +79,10 @@ function App() {
         })
       })
     }
+
+  } catch (error) {
+      console.log(error);
+  }
     }, [movieFind]) 
 
   useEffect(() => {
