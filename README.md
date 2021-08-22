@@ -1,25 +1,20 @@
-ECOMSUR
+# ECOMSUR
 
-# Getting Started with Create React App
+##Filtrado de películas junto con la conexión a TMDB.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##El sistema cuenta con dependencias en Axios y Lodash los cuales son usados para el consumo de la API y mejorar el renderizado.
 
+##El sistema se encuentra desarrollado en Reactjs, desarrollado más específicamente en el ambiente create-react-app.
 
-Filtrado de películas junto con la conexión a TMDB.
+###Desplegar el proyecto en github:
 
-El sistema cuenta con dependencias en Axios y Lodash los cuales son usados para el consumo de la API y mejorar el renderizado.
+###git clone https://github.com/urlproyecto.
 
-El sistema se encuentra desarrollado en Reactjs, desarrollado más específicamente en el ambiente create-react-app.
+###Cd ecomsur
 
-Desplegar el proyecto en github:
+###npm install
 
-git clone https://github.com/urlproyecto.
-
-Cd ecomsur
-
-npm install
-
-npm start
+###npm start
 
 Espero el Proyecto sea de su agrado y cumpla con lo esperado.
 
