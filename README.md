@@ -1,20 +1,20 @@
 # ECOMSUR
 
-##Filtrado de películas junto con la conexión a TMDB.
+## Filtrado de películas junto con la conexión a TMDB.
 
-##El sistema cuenta con dependencias en Axios y Lodash los cuales son usados para el consumo de la API y mejorar el renderizado.
+## El sistema cuenta con dependencias en Axios y Lodash los cuales son usados para el consumo de la API y mejorar el renderizado.
 
-##El sistema se encuentra desarrollado en Reactjs, desarrollado más específicamente en el ambiente create-react-app.
+## El sistema se encuentra desarrollado en Reactjs, desarrollado más específicamente en el ambiente create-react-app.
 
-###Desplegar el proyecto en github:
+### `Desplegar el proyecto en github:`
 
-###git clone https://github.com/urlproyecto.
+### `git clone https://github.com/urlproyecto.`
 
-###Cd ecomsur
+### `Cd ecomsur`
 
-###npm install
+### `npm install`
 
-###npm start
+### `npm start`
 
 Espero el Proyecto sea de su agrado y cumpla con lo esperado.
 
